@@ -1,0 +1,7 @@
+CREATE TABLE `usuario` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) COLLATE utf8mb3_spanish_ci DEFAULT NULL,
+  `correo` varchar(45) COLLATE utf8mb3_spanish_ci DEFAULT NULL,
+  `clave` varchar(45) COLLATE utf8mb3_spanish_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_spanish_ci
